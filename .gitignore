@@ -3,3 +3,5 @@ build/
 .idea/*
 !.idea/runConfigurations/
 SolarEdge-Exporter.log
+.env
+*.orig

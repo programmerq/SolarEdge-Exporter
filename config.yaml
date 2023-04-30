@@ -5,3 +5,5 @@ SolarEdge:
 Exporter:
   # Update Interval in seconds
   Interval: 5
+Log:
+  Debug: true
