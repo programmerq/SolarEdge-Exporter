@@ -10,3 +10,6 @@ build:
 	zip ./bin/solaredge-exporter-linux-arm64-1.1.0.zip ./bin/linux/solaredge-exporter-arm
 	zip ./bin/solaredge-exporter-windows-amd64-1.1.0.zip ./bin/windows/solaredge-exporter.exe
 	zip ./bin/solaredge-exporter-macos-1.1.0.zip ./bin/darwin/solaredge-exporter
+
+docker:
+	docker build -t pcting/solaredge-exporter:latest .
